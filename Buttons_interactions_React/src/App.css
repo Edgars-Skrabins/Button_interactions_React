@@ -1,0 +1,218 @@
+body {
+
+    background-color: #93837e;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: column;
+    margin: 1rem;
+    max-width: 35rem;
+}
+
+.nameInputContainer {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.nameInputContainer__submit-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    margin: 1rem 1rem 1rem 0;
+
+    gap: 2rem;
+}
+
+.button {
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2rem;
+
+    padding: 0.9rem 0.5rem;
+    border-radius: 0.4rem;
+
+    font-weight: bolder;
+
+    &:disabled {
+        background-color: red;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+}
+
+.inputField {
+    box-sizing: border-box;
+
+    min-height: 2rem;
+    font-size: 1.1rem;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    &:focus {
+        border-style: solid;
+        border-width: 0.2rem;
+        border-color: black;
+    }
+}
+
+.countButtons__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.5rem;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 1rem;
+
+    border-style: solid;
+    border-color: black;
+}
+
+.colors__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.colors__dropdown-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top:2rem;
+}
+
+.colors__dropdown-plus{
+    padding: 1rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 0.7rem;
+}
+
+.colors__dropdown{
+    padding: 0.2rem 1rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    border-radius: 0.7rem;
+}
+
+.colorContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 2rem;
+}
+
+.Red{
+    width: 4rem;
+    height: 4rem;
+
+    background-color: red;
+}
+
+.Green{
+    width: 4rem;
+    height: 4rem;
+
+    background-color: green;
+}
+
+.Blue{
+    width: 4rem;
+    height: 4rem;
+
+    background-color: blue;
+}
+
+.White{
+    width: 4rem;
+    height: 4rem;
+
+    background-color: white;
+}
+
+.Black{
+    width: 4rem;
+    height: 4rem;
+
+    background-color: black;
+}
+
+.countField{
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: black;
+    border-radius: 0.7rem;
+
+    padding: 1rem;
+
+    margin: 1rem;
+
+    min-height: 11rem;
+}
+
+.countField__plus{
+    width: 2rem;
+    height: 2rem;
+
+    border-radius: 0.6rem;
+    border-style: none;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.goldenDivs{
+    display: flex;
+    flex-direction: row;
+
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.goldenDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #9d3535;
+
+    border-radius: 0.2rem;
+}
+
+.gold{
+    background-color: #ffa216;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
